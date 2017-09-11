@@ -2,7 +2,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 if __name__ == "__main__":
-    codes = ['035420', '054920', '015760']
+    codes = ['035420', '054920', '215600']
     for code in codes:
         urlstring = "http://asp1.krx.co.kr/servlet/krx.asp.XMLSise?code=" + code
         req = urllib.request.Request(urlstring)
